@@ -1,0 +1,140 @@
+/* /////Mains/// */
+main {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+h1 {
+  font-size: 50px;
+  color: #ff94b6;
+
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 30px;
+  color: #bf2011;
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0;
+}
+h3 {
+  font-size: 20px;
+  color: #ff94b6;
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 0;
+}
+h4 {
+  font-size: 20px;
+  color: #ff94b6;
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 0;
+}
+p {
+  font-size: 17px;
+  color: black;
+  font-family: "Russo One", sans-serif;
+  font-style: normal;
+  margin-top: 5px;
+}
+.p_1 {
+  font-size: 17px;
+  color: black;
+  font-family: "Russo One", sans-serif;
+  font-style: italic;
+  margin-top: 5px;
+  font-weight: 400;
+}
+body {
+  background-color: #bed984;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+.omos_img {
+  width: 100%;
+  height: auto;
+}
+.logo_grid {
+  width: 10%;
+  height: auto;
+}
+/* //////Header//// */
+header .logo a {
+  font-size: 0.5rem;
+  align-items: start;
+  -ms-flex-item-align: start;
+}
+
+header {
+  top: 0;
+  padding: 1rem 2rem;
+  display: flex;
+  margin-bottom: 10px;
+  background-color: #bed984;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  gap: 50px;
+  overflow-x: auto;
+  height: 100%;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  position: center;
+}
+a {
+  text-decoration: none;
+  color: #fd026b;
+  font-size: 20px;
+  justify-content: space-between;
+  text-align: right;
+  font-family: "Russo One", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* //////Podcast siden//// */
+.forside_podcast {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+.p_grid {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  text-align: left;
+}
+
+.omos_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
